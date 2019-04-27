@@ -11,12 +11,8 @@ getNumbers();
 
 
 // spread operator here
-let arr = [1,2,3,4];
-let arr1 = [1,2,3,4,3];
 
-function okay(){
-    console.log(arr +','+ arr1)
-}
-okay(...arr,arr1)
-
+var arr = [1,2,3,4];
+var arr1 = [...arr,5,6,7,8];
+console.log(arr1)
 // rest operator here
