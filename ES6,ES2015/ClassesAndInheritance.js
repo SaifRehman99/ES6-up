@@ -28,3 +28,18 @@ console.log(User.countUser())
 
 
 // We can inherit the class as well
+class Member extends User{
+    constructor(name,email,age,height){
+        // super calls the parent constructor
+        super(name,email,age);
+        this.height = height;
+    }
+
+    heightInfo(){
+        console.log(`${this.name} is of ${this.height} height`);
+    }
+}
+
+const member = new Member('Saif2' , 'gmail.com', 19, '5.9^');
+
+console.log(member.heightInfo());
