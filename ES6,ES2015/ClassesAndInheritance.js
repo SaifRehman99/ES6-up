@@ -36,10 +36,10 @@ class Member extends User{
     }
 
     heightInfo(){
-        console.log(`${this.name} is of ${this.height} height`);
+        console.log(this.email);
     }
 }
 
-const member = new Member('Saif2' , 'gmail.com', 19, '5.9^');
+let mem = new Member('Saad' , 'gmail.com', 19, '5.9^');
 
-console.log(member.heightInfo());
+console.log(mem.heightInfo());
