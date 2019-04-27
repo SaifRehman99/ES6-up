@@ -1,6 +1,6 @@
-// Set stores indivisual values and it stores values/data of diff data types
+// Set stores individual values!
 
-//Set
+//Set here
 let arr = [1,2,3,4];
 let mySet = new Set(arr);
 mySet.add('name');
@@ -18,6 +18,8 @@ mySet.forEach((item) => {
     console.log(item);
 })
 
+
+
 // Weak Set (stores values in object form)
 let carWeakSet = new WeakSet();
 
@@ -30,16 +32,14 @@ console.log(carWeakSet)
 
 
 
-
-
-
-
-//  Map stores in key value pairs
+// Map stores in key value pairs
 //Map
 let myMap = new Map([['a','10'],['b','20']]);
 myMap.set('c','30');
 myMap.delete('a')
 console.log(myMap);
+
+
 
 //WeakMap
 let myWeakMap = new WeakMap();
