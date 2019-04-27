@@ -38,11 +38,11 @@ console.log(arr3)
 // rest operator here
 
 //pasing ...arr in function means its a rest operator
-function mul(num,...arr){
-    arr.map((item) =>{
+function mul(num,...args){
+   return args.map((item) =>{
         return num * item
     })
 }
 
-var aa = mul(2,...arr);
+var aa = mul(2,1,2,3);
 console.log(aa);
