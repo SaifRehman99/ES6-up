@@ -27,4 +27,4 @@ console.log(user.register());
 console.log(User.countUser())
 
 
-// We can inherit the class as wells
+// We can inherit the class as well
