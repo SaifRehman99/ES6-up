@@ -33,4 +33,16 @@ console.log(arr2);
 // 4)concate array
 var arr3 = [...arr,...arr2];
 console.log(arr3)
+
+
 // rest operator here
+
+//pasing ...arr in function means its a rest operator
+function mul(num,...arr){
+    arr.map((item) =>{
+        return num * item
+    })
+}
+
+var aa = mul(2,...arr);
+console.log(aa);
