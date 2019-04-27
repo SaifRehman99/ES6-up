@@ -64,4 +64,3 @@ numbers.push(4);
 // numbers = ['99']
 
 console.log(numbers);
-
