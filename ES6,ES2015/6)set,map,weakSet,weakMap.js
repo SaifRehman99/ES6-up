@@ -1,5 +1,4 @@
 // Set stores individual values!
-
 //Set here
 let arr = [1,2,3,4];
 let mySet = new Set(arr);
