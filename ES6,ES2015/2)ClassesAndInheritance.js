@@ -1,4 +1,4 @@
-// Classes are here in ES6,we dont need typescript and other
+// Classes are here in ES6,we don't need typescript and other
 
 class User {
 
