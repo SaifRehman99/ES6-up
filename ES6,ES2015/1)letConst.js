@@ -13,7 +13,7 @@ function checkVar(){
     if(true){
         var c = 40;
         console.log(c);
-    } 
+    }
     console.log(c);
 }
 
@@ -25,6 +25,7 @@ console.log('Checking i Value outside the scope')
 console.log(i);
 
 checkVar();
+//=======================================================VAR ENDS HERE==============================================================
 
 // checking let scope here
 function checkLet(){
@@ -46,6 +47,7 @@ for(let k=0; k<9 ; k++){
 
 console.log('Checking i Value outside the scope')
 console.log(k);
+//=======================================================LET ENDS HERE==============================================================
 
 
 
